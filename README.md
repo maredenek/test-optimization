@@ -3,3 +3,4 @@ Executions time (avg after 3 attempts):
 - opening browser before each test and closing it right after: ~40s
 - logging user using login inform before each test: ~50s
 - adding address to remove using form: ~55s
+- opening data files each time when after calling method: ~54s
