@@ -1,6 +1,6 @@
 package org.template.tests;
 
-import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.template.configuration.TestData;
@@ -23,8 +23,8 @@ public abstract class AbstractTest {
         navigateToThePage(getBaseUrl());
     }
 
-    @AfterAll
-    public static void tearDown() {
+    @AfterEach
+    public void tearDown() {
         WebDriverFactory.quitWebDriver();
     }
 
