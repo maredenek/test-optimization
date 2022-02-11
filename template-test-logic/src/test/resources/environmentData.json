@@ -1,0 +1,11 @@
+{
+  "DEV": [
+  ],
+  "STG": [
+  ],
+  "PRD": [
+    {
+      "url": "http://automationpractice.com/"
+    }
+  ]
+}

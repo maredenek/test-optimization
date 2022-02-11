@@ -1,0 +1,12 @@
+{
+  "DEV": [
+  ],
+  "STG": [
+  ],
+  "PRD": [
+    {
+      "email": "test@nowaera.pl",
+      "password": "1qaz!QAZ"
+    }
+  ]
+}
