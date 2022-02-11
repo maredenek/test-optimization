@@ -37,7 +37,10 @@ public class LoggedUserActionsTest extends AbstractTest {
 
     @BeforeEach
     public void logUserIn() {
-        addSessionCookieToBrowserOf(user);
+        homePage.header()
+                .goToLogInPage()
+                .loginForm()
+                .fillAndSendLoginForm(user.getEmail(), user.getPassword());
     }
 
     @Test
